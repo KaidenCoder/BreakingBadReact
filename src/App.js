@@ -4,12 +4,9 @@ import './App.css';
 import Header from './components/ui/Header';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
-import CharacterGrid from './components/characters/CharacterGrid';
 import Home from './Base/Home';
 import SecondHome from './Base/SecondHome';
 import Navbar from './Navbar';
